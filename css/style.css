@@ -31,7 +31,7 @@ body {
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: #000;
   margin-bottom: 20px;
@@ -49,7 +49,7 @@ body {
   width: 400px;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #595959;
 }
@@ -67,14 +67,14 @@ body {
 .my-project-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
 .my-project-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
   margin-left: 5px;
@@ -95,14 +95,14 @@ body {
 .my-work-experience-position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   margin: 0 0 10px 0;
 }
 .my-work-experience-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
   color: #595959;
   margin: 0 0 10px 0;
@@ -119,7 +119,7 @@ body {
 .my-work-expereance-duty {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
@@ -138,21 +138,21 @@ body {
   color: #fb6d3a;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
 }
 .my-education-faculty {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
 }
 
 /*side-bar-section*/
 .side-bar-section {
-  background-color: #aff0a7;
+  background-color: hsl(32, 82%, 73%);
   width: 370px;
-  padding: 40px 0;
+  padding-bottom: 40px;
 }
 .contacn-section,
 .tech-skill-section {
@@ -175,11 +175,18 @@ body {
   margin-right: 5px;
 }
 .contacts-section-link {
-  color: #565e6a;
+  color: #fff;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+}
+.contacts-icon{
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  margin-right: 5px;
+
 }
 /* Tech skills section */
 .tech-scills-list {
@@ -196,7 +203,8 @@ body {
   color: #fff;
 }
 /* Soft skills setion */
-.soft-skill-section {
+.soft-skill-section,
+.language-section {
   margin: 50px 0 0 40px;
 }
 .soft-scills-list {
